@@ -53,3 +53,12 @@ EditorSettings:
   m_SerializationMode: 2
   m_LineEndingsForNewScripts: 0
   m_DefaultBehaviorMode: 0
+  productGUID: 00000000000000000000000000000000
+  companyName: AJOFF
+  productName: AJOFF VR Prototype
+  defaultScreenWidth: 1832
+  defaultScreenHeight: 1920
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 29
+  AndroidTargetSdkVersion: 0
+  colorSpace: 1
