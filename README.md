@@ -1,5 +1,6 @@
 # AJOFF
 
+Estrutura inicial de um projeto Unity voltado para VR no Meta Quest 2, com URP, OpenXR, XR Interaction Toolkit, cena base de teste e configuração Android mínima.
 Base mínima de projeto Unity criada em `/workspace/AJOFF` para iniciar um protótipo jogável inspirado em CS2 com VR para Meta Quest 2.
 
 ## Estado da tarefa

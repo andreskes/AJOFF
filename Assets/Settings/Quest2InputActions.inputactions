@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "name": "Quest2InputActions",
+  "maps": [
+    {
+      "name": "XRI LeftHand",
+      "id": "120bf94a-2b0a-4d3c-8ddc-06f8f4f897c8",
+      "actions": [
+        {
+          "name": "Move",
+          "type": "Value",
+          "id": "905321a6-4171-4310-b3f0-0901b9ed77a4",
+          "expectedControlType": "Vector2"
+        },
+        {
+          "name": "Turn",
+          "type": "Value",
+          "id": "691963ea-c3f5-444e-8d09-7a5834c40840",
+          "expectedControlType": "Vector2"
+        },
+        {
+          "name": "Position",
+          "type": "PassThrough",
+          "id": "73e6af71-1899-475b-aafc-adabc3087989",
+          "expectedControlType": "Vector3"
+        },
+        {
+          "name": "Rotation",
+          "type": "PassThrough",
+          "id": "cb86f683-5803-4a4d-bdf2-18708e323e2a",
+          "expectedControlType": "Quaternion"
+        },
+        {
+          "name": "Select",
+          "type": "Button",
+          "id": "0fc5394c-2a79-43a7-97d0-cea0a34d49f4",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Activate",
+          "type": "Button",
+          "id": "463fe265-90b4-4a84-8abf-8039cd03820a",
+          "expectedControlType": "Button"
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "37b11587-85fa-4f5b-aa34-46247602ec32",
+          "path": "<XRController>{LeftHand}/thumbstick",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "7f423ee7-1bd3-4691-a73f-983c9b9e1835",
+          "path": "<OculusTouchController>{LeftHand}/thumbstick",
+          "action": "Turn",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "edc1e4b6-69bf-49ee-9fb9-1dca9a360d7e",
+          "path": "<XRController>{LeftHand}/devicePosition",
+          "action": "Position",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "716791fe-cd1f-4baa-b982-feb6b46ec731",
+          "path": "<XRController>{LeftHand}/deviceRotation",
+          "action": "Rotation",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "4fbc9500-9586-41b6-b97a-916acaa3a1e2",
+          "path": "<XRController>{LeftHand}/gripPressed",
+          "action": "Select",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "e8ad60db-2e0a-4257-bd77-300b7475cb21",
+          "path": "<XRController>{LeftHand}/triggerPressed",
+          "action": "Activate",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    },
+    {
+      "name": "XRI RightHand",
+      "id": "bcf79630-1489-4ebf-8d96-05e8c1d88467",
+      "actions": [
+        {
+          "name": "Move",
+          "type": "Value",
+          "id": "232583e5-d01f-4217-b749-11f79ad0fd8e",
+          "expectedControlType": "Vector2"
+        },
+        {
+          "name": "Turn",
+          "type": "Value",
+          "id": "80d970f8-1d72-4da7-9809-dc0512e411f1",
+          "expectedControlType": "Vector2"
+        },
+        {
+          "name": "Position",
+          "type": "PassThrough",
+          "id": "c5a4e18a-aea5-428f-bdee-cd4e48e94a5c",
+          "expectedControlType": "Vector3"
+        },
+        {
+          "name": "Rotation",
+          "type": "PassThrough",
+          "id": "13add39a-002d-4de8-b2b6-4f68be313b4a",
+          "expectedControlType": "Quaternion"
+        },
+        {
+          "name": "Select",
+          "type": "Button",
+          "id": "f3d0c760-f37a-4f9d-b084-8a0b5d92e2d8",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Activate",
+          "type": "Button",
+          "id": "30ffa21c-b6dd-4f9e-82f2-56c7edb58c21",
+          "expectedControlType": "Button"
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "6f2ded0c-60df-4b92-bce7-5f969e873bc2",
+          "path": "<XRController>{RightHand}/thumbstick",
+          "action": "Move",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "e7013bf3-ef7b-4786-bcad-221666148de8",
+          "path": "<OculusTouchController>{RightHand}/thumbstick",
+          "action": "Turn",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "0beddc59-bb21-432f-825b-f433771fec97",
+          "path": "<XRController>{RightHand}/devicePosition",
+          "action": "Position",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "bbe0689a-5758-413e-a8bb-8a5307cf8588",
+          "path": "<XRController>{RightHand}/deviceRotation",
+          "action": "Rotation",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "9bfdfbfa-87f9-48d1-8161-e65974cd3829",
+          "path": "<XRController>{RightHand}/gripPressed",
+          "action": "Select",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "dcc0a6c7-023a-4dea-9137-afdb0f9eca16",
+          "path": "<XRController>{RightHand}/triggerPressed",
+          "action": "Activate",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": [
+    {
+      "name": "Quest2",
+      "bindingGroup": "Quest2",
+      "devices": [
+        {
+          "devicePath": "<OculusHMD>",
+          "isOptional": false,
+          "isOR": false
+        },
+        {
+          "devicePath": "<OculusTouchController>{LeftHand}",
+          "isOptional": false,
+          "isOR": false
+        },
+        {
+          "devicePath": "<OculusTouchController>{RightHand}",
+          "isOptional": false,
+          "isOR": false
+        }
+      ]
+    }
+  ]
+}
