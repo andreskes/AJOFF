@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 28
+  productGUID: 3e41dd0ad9b04724a019bca40e022f83
+  companyName: AJOFF
+  productName: AJOFF VR
+  defaultScreenOrientation: 3
+  targetDevice: 2
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  defaultIsNativeResolution: 1
+  m_SplashScreenBackgroundColor: {r: 0.101960786, g: 0.11764706, b: 0.12941177, a: 1}
+  m_SplashScreenLogoStyle: 1
+  m_StereoRenderingPath: 0
+  virtualRealitySupported: 1
+  activeColorSpace: 1
+  AndroidProfiler: 0
+  AndroidFilterTouchesWhenObscured: 0
+  AndroidEnableSustainedPerformanceMode: 1
+  androidStartInFullscreen: 1
+  androidRenderOutsideSafeArea: 1
+  androidUseSwappy: 1
+  AndroidUseAPKExpansionFiles: 0
+  AndroidMinSdkVersion: 29
+  AndroidTargetSdkVersion: 0
+  AndroidPreferredInstallLocation: 1
+  AndroidBundleVersionCode: 1
+  AndroidTargetArchitectures: 2
+  scriptingBackend:
+    Android: 1
+  il2cppCompilerConfiguration: {Android: 0}
+  managedStrippingLevel: {Android: 1}
+  stripEngineCode: 1
+  applicationIdentifier:
+    Android: com.ajoff.vr
+  overrideDefaultApplicationIdentifier: 1
+  buildNumber:
+    Android: 1
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 15000000
+    m_Automatic: 0
+  openGLRequireES31: 1
+  vulkanNumSwapchainBuffers: 3
+  projectName: AJOFF VR
+--- !u!1045 &2
+EditorSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_SerializationMode: 2
+  m_LineEndingsForNewScripts: 0
+  m_DefaultBehaviorMode: 0
+  productGUID: 00000000000000000000000000000000
+  companyName: AJOFF
+  productName: AJOFF VR Prototype
+  defaultScreenWidth: 1832
+  defaultScreenHeight: 1920
+  AndroidBundleVersionCode: 1
+  AndroidMinSdkVersion: 29
+  AndroidTargetSdkVersion: 0
+  colorSpace: 1

@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "com.unity.render-pipelines.universal": {
+      "version": "17.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {}
+    },
+    "com.unity.inputsystem": {
+      "version": "1.8.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {}
+    },
+    "com.unity.xr.management": {
+      "version": "4.5.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {}
+    },
+    "com.unity.xr.openxr": {
+      "version": "1.11.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {}
+    },
+    "com.unity.xr.interaction.toolkit": {
+      "version": "3.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {}
+    }
+  }
+}
